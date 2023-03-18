@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-
+<link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <!-- Fonts from google -->
@@ -21,64 +21,52 @@
   </style>
 </head>
 <body>
-  <div class="div1">  12
-    <img src="./images/avatars/image-amyrobson.png" alt="profile" />
+  <!-- div containing all the comments divs -->
+  <div class="container">
+
+
+    <!-- Comment #1 -->
+  <div class="div1 boxstyle">  <div class="box-1"><button><img src="./images/icon-plus.svg" alt="plus button"></button><button>12</button><button>-</button></div>
+    <img id='imgOne' src="./images/avatars/image-amyrobson.png" alt="profile" />
     amyrobson 
     1 month ago
+    <br>
     Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</div>
 
-  <!-- Comment #1
-  12
-  <img src="./images/avatars/image-amyrobson.png" alt="profile" />
-  amyrobson 
-  1 month ago
-  Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well. -->
 
-  <div class="div2">  5
+
+  <!-- Comment #2 -->
+  <div class="div2 boxstyle">  <div class="box-1"><button><img src="./images/icon-plus.svg" alt="plus button"></button><button>5</button><button>-</button></div>
     <img src="./images/avatars/image-maxblagun.png" alt="profile" />
     maxblagun 
     2 weeks ago
     Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</div>
 
-  <!-- Comment #2 -->
-  <!-- 5
-  <img src="./images/avatars/image-maxblagun.png" alt="profile" />
-  maxblagun 
-  2 weeks ago
-  Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks! -->
 
-<div>  4
+
+  <!-- Comment #3 (Reply to comment #2) -->
+<div class="div3 boxstyle">  <div class="box-1"><button><img src="./images/icon-plus.svg" alt="plus button"></button><button>4</button><button>-</button></div>
   <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
   ramsesmiron 
   1 week ago
   @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.</div>
 
-  <!-- Comment #3 (Reply to comment #2) -->
-  <!-- 4
-  <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
-  ramsesmiron 
-  1 week ago
-  @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first. -->
 
-<div>  2
+
+  <!-- Comment #4 (Reply to comment #2) -->
+<div class="div4 boxstyle">  <div class="box-1"><button><img src="./images/icon-plus.svg" alt="plus button"></button><button>2</button><button>-</button></div>
   <img src="./images/avatars/image-juliusomo.png" alt="profile" />
   juliusomo 
   2 days ago
   @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
 </div>
 
-  <!-- Comment #4 (Reply to comment #2) -->
-  <!-- 2
-  <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-  juliusomo 
-  2 days ago
-  @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant. -->
+</div>
 
-
-  
+<br>
   <div class="attribution">
     Challenge adapted from <a href="https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Steven Gangl</a>.
   </div>
 </body>
 </html>
